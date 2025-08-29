@@ -1,0 +1,78 @@
+{
+  "name": "ShadowLCatch",
+  "description": "A Telegram bot built with python-telegram-bot and pyrogram, using MongoDB for data storage.",
+  "repository": "https://github.com/yourusername/your-repo-name",
+  "keywords": ["python", "telegram-bot", "pyrogram", "mongodb"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID for the bot",
+      "value": "22949712",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash for the bot",
+      "value": "918007ea4d42bb1b3eeb509d3f99b04a",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Telegram Bot Token",
+      "value": "7727035867:AAFN7gPqQQHRksirYq69G5CsCmceEImy1es",
+      "required": true
+    },
+    "GLOG": {
+      "description": "Username or ID of the log channel",
+      "value": "lusst_log",
+      "required": true
+    },
+    "CHARA_CHANNEL_ID": {
+      "description": "Username or ID of the character channel",
+      "value": "lusst_log",
+      "required": true
+    },
+    "SUPPORT_CHAT_ID": {
+      "description": "ID of the support chat",
+      "value": "-1002521213057",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URL",
+      "value": "mongodb+srv://shreyan82683:shreyan82683@cluster0.ucwuljq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "required": true
+    },
+    "PHOTO_URL_1": {
+      "description": "First photo URL for the bot",
+      "value": "https://files.catbox.moe/vynvvl.jpg",
+      "required": false
+    },
+    "PHOTO_URL_2": {
+      "description": "Second photo URL for the bot",
+      "value": "https://files.catbox.moe/0yl60o.jpg",
+      "required": false
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support chat URL",
+      "value": "https://t.me/+Qq_DJrLZyOAxOWE1",
+      "required": true
+    },
+    "UPDATE_CHAT": {
+      "description": "Update chat URL",
+      "value": "https://t.me/lUst_uPdates",
+      "required": true
+    },
+    "SUDO": {
+      "description": "Comma-separated list of sudo user IDs",
+      "value": "7824632184",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Owner's Telegram user ID",
+      "value": "8043525426",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
