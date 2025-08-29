@@ -14,8 +14,8 @@ from pyrogram import enums
 
 from LCatch import LC as app
 
-OWNER_ID = [7824632184]
-EVAL = [7824632184]
+OWNER_ID = [7538572906]
+EVAL = [7538572906]
 
 async def aexec(code, client, message):
     exec(
