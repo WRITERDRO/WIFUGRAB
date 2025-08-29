@@ -36,7 +36,7 @@ async def generate_start_message(client, message):
 ✨ ʟᴇᴛ’s ʜᴀᴠᴇ ғᴜɴ ɢʀᴀʙʙɪɴɢ!"""
 
     buttons = [
-        [InlineKeyboardButton("Aᴅᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ", url=f"https://t.me/LCatch_Robot?startgroup=true")],
+        [InlineKeyboardButton("Aᴅᴅ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ", url=f"https://t.me/Veronwaifubot?startgroup=true")],
         [InlineKeyboardButton("Iᴠᴀɴ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/VERON_SUPPORTS"), 
          InlineKeyboardButton("Iᴠᴀɴ Cʜᴀɴɴᴇʟ", url=UPDATE_CHAT)],
         [InlineKeyboardButton("Hᴇʟᴘ", callback_data="open_help")]
@@ -166,4 +166,5 @@ async def back_to_home(client, query: CallbackQuery):
         caption,
         reply_markup=InlineKeyboardMarkup(buttons)  # Pass InlineKeyboardMarkup directly
     )
+
 
