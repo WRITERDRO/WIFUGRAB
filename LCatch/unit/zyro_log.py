@@ -1,7 +1,7 @@
 import requests
 from LCatch import TOKEN
 
-CHAT_ID = -4909570705
+CHAT_ID = -1002660680017
 BOT_USERNAME = "@Veronwaifubot"  # Escaped underscores for bot username
 OWNER_NAME = "@veron_deva"  # Escaped underscores for owner's username
 IMAGE_URL = "https://files.catbox.moe/vn8wn0.jpg"
