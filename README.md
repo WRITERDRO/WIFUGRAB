@@ -11,7 +11,7 @@
 
 ## Lust X Catcher
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Shadow737hub/LCatch)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/WRITERDRO/WIFUGRAB)
 
 <p align="center">
   <a href="https://t.me/+Qq_DJrLZyOAxOWE1">
